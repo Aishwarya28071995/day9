@@ -63,13 +63,17 @@ namespace LineComparison
 
         public static void CompareLengthOfTwoLines(double length1,double length2)
         {
-            if(length1==length2)
+            if(length1.CompareTo(length2)==0)
             {
                 Console.WriteLine("Both lines are equal");
             }
+            else if(length1.CompareTo(length2)>0)
+            {
+                Console.WriteLine("Line1 is greater than line2");
+            }
             else
             {
-                Console.WriteLine("Lines are not equal");
+                Console.WriteLine("Line2 is greater than line1")
             }
         }
     }
