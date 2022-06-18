@@ -73,7 +73,7 @@ namespace LineComparison
             }
             else
             {
-                Console.WriteLine("Line2 is greater than line1")
+                Console.WriteLine("Line2 is greater than line1");
             }
         }
     }
